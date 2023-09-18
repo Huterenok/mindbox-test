@@ -1,0 +1,14 @@
+.wrapper {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+
+  text-align: center;
+}
+
+.sad_title {
+  margin-top: 24px;
+  font-size: var(--font-xl);
+}

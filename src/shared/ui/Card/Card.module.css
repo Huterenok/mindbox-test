@@ -1,0 +1,13 @@
+.wrapper {
+  padding: 24px;
+
+  width: 100%;
+
+  display: flex;
+
+  background-color: var(--sage);
+  border: 2px solid var(--dark-green);
+  border-radius: var(--radius-m);
+
+  transition: 0.3s all var(--transition);
+}

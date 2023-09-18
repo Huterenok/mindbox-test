@@ -1,0 +1,65 @@
+@import "reset";
+
+:root {
+  --sage: #edf1d6;
+  --light-green: #9dc08b;
+  --green: #609966;
+  --dark-green: #40513b;
+
+  --font-s: 14px;
+  --font-m: 18px;
+  --font-l: 24px;
+  --font-xl: 32px;
+  --font-xxl: 64px;
+
+  --radius-m: 16px;
+
+  --transition: ease-in;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+  color: var(--dark-green);
+  font: var(--font-l);
+}
+
+.app {
+  padding: 24px 144px;
+
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: var(--sage);
+}
+
+.title {
+  padding-top: 24px;
+  margin-bottom: 24px;
+
+  font-size: var(--font-xxl);
+}
+
+::selection {
+  background: var(--dark-green);
+  color: var(--sage);
+}
+
+@media screen and (max-width: 800px) {
+  :root {
+    --font-s: 10px;
+    --font-m: 14px;
+    --font-l: 20px;
+    --font-xl: 24px;
+    --font-xxl: 48px;
+  }
+
+  .app {
+    padding: 24px 24px;
+  }
+}
