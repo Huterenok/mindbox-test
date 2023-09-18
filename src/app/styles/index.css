@@ -54,12 +54,18 @@ body {
   :root {
     --font-s: 10px;
     --font-m: 14px;
-    --font-l: 20px;
-    --font-xl: 24px;
-    --font-xxl: 48px;
+    --font-l: 18px;
+    --font-xl: 20px;
+    --font-xxl: 36px;
   }
 
   .app {
     padding: 24px 24px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .app {
+    padding: 12px 8px;
   }
 }

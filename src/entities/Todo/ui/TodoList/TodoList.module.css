@@ -12,3 +12,9 @@
   margin-top: 24px;
   font-size: var(--font-xl);
 }
+
+@media screen and (max-width: 800px){
+	.wrapper {
+		gap: 18px;
+	}
+}

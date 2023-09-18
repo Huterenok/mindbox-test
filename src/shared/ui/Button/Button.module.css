@@ -7,6 +7,7 @@
   border-radius: var(--radius-m);
   border: 2px solid var(--sage);
   color: var(--sage);
+	text-align: center;
 
   transition: 0.3s all var(--transition);
 }
@@ -21,4 +22,10 @@
   background-color: var(--sage);
   color: var(--dark-green);
   border: 2px solid var(--dark-green);
+}
+
+@media screen and (max-width: 400px) {
+  .button {
+    padding: 6px 12px;
+  }
 }
